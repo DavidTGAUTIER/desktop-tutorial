@@ -1,3 +1,3 @@
 ### Explain of my first project
 
-This is a simple test
+First Quizz project for Jedha Bootcamp

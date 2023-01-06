@@ -1,0 +1,1 @@
+docker run -it -v "%cd%:/home/app" -p 4000:4000 -e PORT=4000 -e AWS_ACCESS_KEY_ID="aws_key_id" -e AWS_SECRET_ACCESS_KEY="aws_key_access" -e BACKEND_STORE_URI="postgresql://eu-west-1.compute.amazonaws.com" -e ARTIFACT_ROOT="s3://mlflow-bucket/mlflow-artifacts/" -e APP_URI="https://myapp.herokuapp.com/" fastapi_docker

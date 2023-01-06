@@ -1,0 +1,10 @@
+[browser]
+serverAddress = 'localhost:4000'
+port = 4000
+
+[global]
+dataFrameSerialization = "legacy"
+
+[theme]
+base="dark"
+primaryColor="#4be8e0"
